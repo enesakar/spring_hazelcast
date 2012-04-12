@@ -13,6 +13,7 @@ public class Main {
 
         IMap map = (IMap) ctx.getBean("usermap");
         map.put("somekey","somevalue");
+        map.put("somekey1","somevalue1");
         System.out.println(map.get("somekey"));
     }
 }
